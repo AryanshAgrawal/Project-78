@@ -1,0 +1,116 @@
+body{
+	background-size: 2000px 600px;
+	background-image: url("C:\Users\Roselin\OneDrive\Desktop\Web Development\Project-79\images\Bg.jpg");
+}
+
+#Pizza{
+height: 400px;
+width: 5000px;
+}
+.topnav {
+	overflow: hidden;
+	background-color: rgb(11, 14, 2);
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #20f50c;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: rgb(14, 241, 33);
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: rgb(20, 238, 20);
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:rgb(10, 1, 1); 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: rgb(7, 14, 7);
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	padding-left: 30px;
+	width:150px;
+	height:100px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #e90808;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(245, 7, 7);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(236, 104, 27);
+ }
+
+#im1{
+	width:100px;
+	height: 80px;
+}
